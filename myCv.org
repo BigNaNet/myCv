@@ -1,5 +1,5 @@
 #+LATEX_CLASS: moderncv
-#+CVSTYLE: classic
+#+CVSTYLE: banking
 #+CVCOLOR: green
 #+MOBILE: +351 919333939
 # #+HOMEPAGE: example.com
@@ -38,16 +38,38 @@
 ** Operational Forecast Engineer trainee
 :PROPERTIES:
 :CV_ENV: cventry
-:FROM:     <2019-10-22>
-:TO: <2019-07-11 qui>
+:FROM:     <2018-10-22>
+:TO:
 :LOCATION: Porto, Portugal
 :EMPLOYER: Vestas
 :END:
 
-* Languages
- - *Portuguese*                    Native
- - *English*   Fluent
- - *German*    Fluent
+* Volunteer
+** Vogal, Nucleo de Estudantes do Departamento de Física
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2013-10-22>
+:TO: <2014-07-11 qui>
+:LOCATION: Coimbra, Portugal
+:EMPLOYER: Associação Académica de Coimbra
+:END:
+
+** Scout Monitor
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2016-09-22>
+:TO:
+:LOCATION: Viseu, Portugal
+:EMPLOYER: CNE, WOSM
+:END:
+* Skills
+** *Job Related*
+  Emacs, Linux, K8s, Prometheus.io, Elasticsearch, ElastAlert, alerta.io, Python
+** *Comunication*
+  lorem ipsum
+** *Organisational*
+  Managment
+
 * Run me                                                           :noexport:
 #+BEGIN_SRC emacs-lisp
 (org-export-to-file 'moderncv "DanielFerreiraCV.tex")
