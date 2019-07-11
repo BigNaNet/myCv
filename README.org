@@ -1,7 +1,7 @@
 * Howdy
 
 Just my awesome CV all made in org.
-Feel free to look at it, if you're already here.
+Feel free to look at it, you're already here.
 
 * Thanks
   @Titan-C for his witchCraft making that modernCV exporter go check it out [[https://github.com/Titan-C/org-cv][here]]

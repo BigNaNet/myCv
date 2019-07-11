@@ -50,9 +50,9 @@
  - *German*    Fluent
 * Run me                                                           :noexport:
 #+BEGIN_SRC emacs-lisp
-(org-export-to-file 'moderncv "moderncv.tex")
-(org-latex-compile "moderncv.tex")
+(org-export-to-file 'moderncv "DanielFerreiraCV.tex")
+(org-latex-compile "DanielFerreiraCV.tex")
 #+END_SRC
 
 #+RESULTS:
-: /home/daniel/Desktop/CV/moderncv.pdf
+: /home/daniel/Desktop/myCv/DanielFerreiraCV.pdf
