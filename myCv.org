@@ -1,0 +1,58 @@
+#+LATEX_CLASS: moderncv
+#+CVSTYLE: classic
+#+CVCOLOR: green
+#+MOBILE: +351 919333939
+# #+HOMEPAGE: example.com
+#+ADDRESS: Rua da Fonte 18
+#+ADDRESS: 3515-717 Calde
+#+ADDRESS: Almargem Viseu
+# #+GITLAB: BigNaNet
+#+GITHUB: BigNaNet
+#+LINKEDIN: daniel-ferreira
+#+TITLE: Devop @ Zhulke
+#+AUTHOR: Daniel Ferreira
+#+email: ferreira.d4.r@gmail.com
+
+* Education
+** Master
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2009-09-10>
+:TO:     <2018-10-04>
+:LOCATION: Coimbra
+:EMPLOYER: University of Coimbra
+:END:
+
+* Master thesis
+** *Title* lorem ipsum
+   :PROPERTIES:
+   :CV_ENV:   cventry
+   :FROM:     <2017-02-01>
+   :TO:       <2017-08-31>
+   :LOCATION: Zürich, Switzerland
+   :EMPLOYER: SuperComputing Systems AG
+   :END:
+ *Description* lasdfjasldkfjlaskdf
+
+* Employment
+** Operational Forecast Engineer trainee
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2019-10-22>
+:TO: <2019-07-11 qui>
+:LOCATION: Porto, Portugal
+:EMPLOYER: Vestas
+:END:
+
+* Languages
+ - *Portuguese*                    Native
+ - *English*   Fluent
+ - *German*    Fluent
+* Run me                                                           :noexport:
+#+BEGIN_SRC emacs-lisp
+(org-export-to-file 'moderncv "moderncv.tex")
+(org-latex-compile "moderncv.tex")
+#+END_SRC
+
+#+RESULTS:
+: /home/daniel/Desktop/CV/moderncv.pdf
