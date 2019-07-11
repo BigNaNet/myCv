@@ -9,7 +9,7 @@
 # #+GITLAB: BigNaNet
 #+GITHUB: BigNaNet
 #+LINKEDIN: daniel-ferreira
-#+TITLE: Devop @ Zhulke
+#+TITLE: MY JOB
 #+AUTHOR: Daniel Ferreira
 #+email: ferreira.d4.r@gmail.com
 
