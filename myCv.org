@@ -1,6 +1,6 @@
 #+LATEX_CLASS: moderncv
-#+CVSTYLE: banking
-#+CVCOLOR: green
+#+CVSTYLE:  banking
+#+CVCOLOR:  purple
 #+MOBILE: +351 919333939
 # #+HOMEPAGE: example.com
 #+ADDRESS: Rua da Fonte 18
@@ -9,6 +9,7 @@
 # #+GITLAB: BigNaNet
 #+GITHUB: BigNaNet
 #+LINKEDIN: daniel-ferreira
+#+PHOTO:
 #+TITLE: MY DREAM JOB
 #+AUTHOR: Daniel Ferreira
 #+email: ferreira.d4.r@gmail.com
@@ -22,18 +23,12 @@
 :LOCATION: Coimbra
 :EMPLOYER: University of Coimbra
 :END:
-
 * Master thesis
-** *Title* lorem ipsum
-   :PROPERTIES:
-   :CV_ENV:   cventry
-   :FROM:     <2017-02-01>
-   :TO:       <2017-08-31>
-   :LOCATION: Zürich, Switzerland
-   :EMPLOYER: SuperComputing Systems AG
-   :END:
- *Description* lasdfjasldkfjlaskdf
-
+** The Title of my thesis
+:PROPERTIES:
+:CV_ENV: cvthesis
+:description: lorem ipsum
+:END:
 * Employment
 ** Operational Forecast Engineer trainee
 :PROPERTIES:
@@ -43,6 +38,7 @@
 :LOCATION: Porto, Portugal
 :EMPLOYER: Vestas
 :END:
+lorem ipsum lsafasdf asdlkfjoadsfn lkjdsalfkja
 
 * Volunteer
 ** Vogal, Nucleo de Estudantes do Departamento de Física
@@ -64,11 +60,29 @@
 :END:
 * Skills
 ** *Job Related*
-  Emacs, Linux, K8s, Prometheus.io, Elasticsearch, ElastAlert, alerta.io, Python
+  - Emacs, Linux, K8s, Prometheus.io, Elasticsearch, ElastAlert, alerta.io, Python
 ** *Comunication*
   lorem ipsum
 ** *Organisational*
-  Managment
+  Time Managment
+* Languages
+** Portuguese
+:Properties:
+:CV_ENV: cvitemwcomment
+:SKILL: Native
+:END:
+** English
+:Properties:
+:CV_ENV: cvitemwcomment
+:SKILL: Proeficient
+:COMMENT:  Currently I am working in a Global Company where English is the primary spoken and written language.
+:END:
+** German
+:Properties:
+:CV_ENV: cvitemwcomment
+:SKILL: Proeficient
+:COMMENT: I am able to have a conversation in German. However my written abilities need some improvement.
+:END:
 
 * Run me                                                           :noexport:
 #+BEGIN_SRC emacs-lisp
