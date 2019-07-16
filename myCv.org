@@ -1,5 +1,5 @@
 #+LATEX_CLASS: moderncv
-#+CVSTYLE:  banking
+#+CVSTYLE:  classic
 #+CVCOLOR:  purple
 #+MOBILE: +351 919333939
 # #+HOMEPAGE: example.com
@@ -9,7 +9,10 @@
 # #+GITLAB: BigNaNet
 #+GITHUB: BigNaNet
 #+LINKEDIN: daniel-ferreira
-#+PHOTO:
+#+PHOTO: ap,550x550,16x12,1,transparent,t.u2.png
+#+ATTR_TEXINFO: :author me
+
+
 #+TITLE: MY DREAM JOB
 #+AUTHOR: Daniel Ferreira
 #+email: ferreira.d4.r@gmail.com
@@ -75,19 +78,19 @@ lorem ipsum lsafasdf asdlkfjoadsfn lkjdsalfkja
 :Properties:
 :CV_ENV: cvitemwcomment
 :SKILL: Proeficient
-:COMMENT:  Currently I am working in a Global Company where English is the primary spoken and written language.
+:COMMENT:  lorem ipsum
 :END:
 ** German
 :Properties:
 :CV_ENV: cvitemwcomment
 :SKILL: Proeficient
-:COMMENT: I am able to have a conversation in German. However my written abilities need some improvement.
+:COMMENT: lorem ipsum
 :END:
 
 * Run me                                                           :noexport:
 #+BEGIN_SRC emacs-lisp
-(org-export-to-file 'moderncv "DanielFerreiraCV.tex")
-(org-latex-compile "DanielFerreiraCV.tex")
+  (org-export-to-file 'moderncv "DanielFerreiraCV.tex")
+  (org-latex-compile "DanielFerreiraCV.tex")
 #+END_SRC
 
 #+RESULTS:
