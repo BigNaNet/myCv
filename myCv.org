@@ -1,6 +1,6 @@
 #+LATEX_CLASS: moderncv
-#+CVSTYLE:  classic
-#+CVCOLOR:  purple
+#+CVSTYLE: fancy
+#+CVCOLOR:  grey
 #+MOBILE: +351 919333939
 # #+HOMEPAGE: example.com
 #+ADDRESS: Rua da Fonte 18
@@ -10,10 +10,9 @@
 #+GITHUB: BigNaNet
 #+LINKEDIN: daniel-ferreira
 #+PHOTO: ap,550x550,16x12,1,transparent,t.u2.png
-#+ATTR_TEXINFO: :author me
+#+QUOTE: Life can only be understood backwards, but it must be lived forwards  -Soren Kierkegaard
 
-
-#+TITLE: MY DREAM JOB
+#+TITLE: My Dream Job
 #+AUTHOR: Daniel Ferreira
 #+email: ferreira.d4.r@gmail.com
 
@@ -26,13 +25,13 @@
 :LOCATION: Coimbra
 :EMPLOYER: University of Coimbra
 :END:
-* Master thesis
+* Master thesis                                                    :noexport:
 ** The Title of my thesis
 :PROPERTIES:
 :CV_ENV: cvthesis
 :description: lorem ipsum
 :END:
-* Employment
+* Experience
 ** Operational Forecast Engineer trainee
 :PROPERTIES:
 :CV_ENV: cventry
@@ -43,16 +42,6 @@
 :END:
 lorem ipsum lsafasdf asdlkfjoadsfn lkjdsalfkja
 
-* Volunteer
-** Vogal, Nucleo de Estudantes do Departamento de Física
-:PROPERTIES:
-:CV_ENV: cventry
-:FROM:     <2013-10-22>
-:TO: <2014-07-11 qui>
-:LOCATION: Coimbra, Portugal
-:EMPLOYER: Associação Académica de Coimbra
-:END:
-
 ** Scout Monitor
 :PROPERTIES:
 :CV_ENV: cventry
@@ -61,13 +50,57 @@ lorem ipsum lsafasdf asdlkfjoadsfn lkjdsalfkja
 :LOCATION: Viseu, Portugal
 :EMPLOYER: CNE, WOSM
 :END:
+** Vogal, Nucleo de Estudantes do Departamento de Física
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2013-10-22>
+:TO: <2014-07-11 qui>
+:LOCATION: Coimbra, Portugal
+:EMPLOYER: Associação Académica de Coimbra
+:END:
 * Skills
-** *Job Related*
-  - Emacs, Linux, K8s, Prometheus.io, Elasticsearch, ElastAlert, alerta.io, Python
-** *Comunication*
-  lorem ipsum
-** *Organisational*
-  Time Managment
+*** one
+:Properties:
+:CV_ENV: cvdoubleitem
+:SKILL1: Emacs
+:LEVEL1: Intermediate
+:SKILL2: Linux
+:LEVEL2: Intermediate
+:END:
+*** two
+:Properties:
+:CV_ENV: cvdoubleitem
+:SKILL1: K8s
+:LEVEL1: Beginner
+:SKILL2: Prometheus
+:LEVEL2: Beginner/Intermediate
+:END:
+*** three
+:Properties:
+:CV_ENV: cvdoubleitem
+:SKILL1: Elasticsearch
+:LEVEL1: Beginner
+:SKILL2: ElastAlert
+:LEVEL2: Beginner/Intermediate
+:END:
+*** four
+:Properties:
+:CV_ENV: cvdoubleitem
+:SKILL1: alerta
+:LEVEL1: Beginner
+:SKILL2: Python
+:LEVEL2: Beginner/Intermediate
+:END:
+
+*** one
+:Properties:
+:CV_ENV: cvdoubleitem
+:SKILL1: Team management
+:LEVEL1: teams of up to 15 elements
+:SKILL2: Time Managment
+:LEVEL2: lorem ipsum
+:END:
+
 * Languages
 ** Portuguese
 :Properties:
