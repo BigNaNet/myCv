@@ -1,0 +1,217 @@
+#+OPTIONS: ^:nil
+#+LATEX_CLASS: awesomecv
+#+CVCOLOR: orange
+#  Awesome Colors: emerald, skyblue, red, pink, orange, nephritis, concrete, darknight
+#+LATEX_COMPILER: xelatex
+#+LATEX_HEADER: \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+#+LATEX_HEADER: \fontdir[fonts/]
+#+MOBILE: +351 919333939
+# #+HOMEPAGE: example.com
+# #+ADDRESS: my adress
+# #+ADDRESS: when long address
+# #+ADDRESS: endless address
+# #+GITLAB: BigNaNet
+#+GITHUB: BigNaNet
+#+LINKEDIN: daniel_ferreira
+# #+PHOTO: myFface.png
+# #+QUOTE: My cute quote
+# HIGHLIGHT: true
+#+TITLE:  Physics Engineer
+#+AUTHOR: Daniel Ricardo Ferreira
+#+email: ferreira.d4.r@gmail.com
+
+* Summary
+** text
+:PROPERTIES:
+:CV_ENV: cvparag
+:END:
+Currently I'm an Advanced Plant Modelling Engineer at Vestas. Building
+experience in back-end development, modelling and infrastructure automation.
+Nerd who loves Emacs, Linux and enjoys to customize all of the development environment.
+Interested in devising a better problem-solving method for challenging tasks,
+and learning new technologies and tools if the need arises.
+
+* Education
+#+LATEX: \begin{cventries}
+** Master Degree in Physics Engineering
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM: 2017
+:TO:
+:LOCATION: Coimbra
+:EMPLOYER: University of Coimbra
+:END:
+** Machine Learning Course
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM: 2019
+:TO:
+:LOCATION: Online
+:EMPLOYER: Coursera
+:END:
+
+** Form
+:PROPERTIES:
+:CV_ENV: cvform
+:END:
+#+LATEX: \end{cventries}
+* Skills
+#+LATEX: \begin{cvskills}
+** Languages
+:Properties:
+:CV_ENV: cvskill
+:END:
+Portuguese, English, German, French
+** DevOps
+:Properties:
+:CV_ENV: cvskill
+:END:
+Git, CI/CD, Prometheus, Docker, Kubernetes
+** Programming
+:Properties:
+:CV_ENV: cvskill
+:END:
+Python, Java, Bash, elisp, MySQL, Latex
+** Data
+:Properties:
+:CV_ENV: cvskill
+:END:
+Machine Learning, Data Analysis
+** Form
+:PROPERTIES:
+:CV_ENV: cvform
+:END:
+#+LATEX:\end{cvskills}
+* Experience
+#+LATEX: \begin{cventries}
+** Advanced Plant Modelling Engineer
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2020-02-22>
+:TO:
+:LOCATION: Porto, Portugal
+:EMPLOYER: Vestas
+:END:
+#+ATTR_LATEX: :environment cvitems
+- Scientific back-end code development.
+- Building automated  CI/CD pipelines for containerized applications using Docker,
+  Azure and gitlab.
+- Process parallelization with dask in python.
+- Implementing microservices in python.
+
+** Operational Forecast Engineer
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2019-10-22>
+:TO:       <2020-02-21>
+:LOCATION: Porto, Portugal
+:EMPLOYER: Vestas
+:END:
+#+ATTR_LATEX: :environment cvitems
+- Acquainted with state of the art technologies such as Containerization,
+  CI/CD processes, and Cabernet's.
+- Agile methodologies.
+- Deployed Prometheus as centralized logging gatherer for in house
+  gateway infrastructure for crevices.
+- Deployed Alert as centralized notification system for gateway infrastructure.
+
+** Operational Forecast Engineer Trainee
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2018-10-22>
+:TO:       <2019-10-21>
+:LOCATION: Porto, Portugal
+:EMPLOYER: Vestas
+:END:
+#+ATTR_LATEX: :environment cvitems
+- Responsible for a fully running forecast system, based in SGE scheduling  and
+  python code.
+- First contact with machine learning algorithms, linux systems, relational
+  databases.
+** Form
+:PROPERTIES:
+:CV_ENV: cvform
+:END:
+#+LATEX: \end{cventries}
+* Extra Curricular
+#+LATEX: \begin{cventries}
+** Scout Monitor
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2016-09-22>
+:TO:
+:LOCATION: Viseu, Portugal
+:EMPLOYER: CNE, WOSM
+:END:
+- Work with kids, helping them acquire new competences that allow them to be
+  more organized, team players and objective focused. All this while I get to
+  travel around and know some awesome hiking places
+** Vogal, Nucleo de Estudantes do Departamento de Física
+:PROPERTIES:
+:CV_ENV: cventry
+:FROM:     <2013-10-22>
+:TO: <2014-07-11 qui>
+:LOCATION: Coimbra, Portugal
+:EMPLOYER: Associação Académica de Coimbra
+:END:
+** Form
+:PROPERTIES:
+:CV_ENV: cvform
+:END:
+#+LATEX: \end{cventries}
+
+* Hobbies                                                          :noexport:
+  Currently they are raspberrypi, python and emacs.
+  I really like to hike, read and learn new things, in-between I play the piano
+* Master thesis                                                    :noexport:
+** Diminishing peak occurrences in Household-grid exchanges
+:PROPERTIES:
+:CV_ENV: cvthesis
+:description: SuperComputing Systems AG
+:END:
+* Letter                                                           :noexport:
+:PROPERTIES:
+:CV_ENV: letter
+:RECIPIENT: Piotr Nowalinski
+:RECIPIENT2: Zhülke Engineering AG  \\ Wiesenstrasse 10a \\ Zhürich
+:OPENING:  Dear Mr. Piotr Nowalinski
+:DATE: <2019-07-30 ter>
+:END:
+I am interested in the Junior DevOp position advertised in your website. Given my
+related experience and capacity to learn, I would appreciate your consideration
+for this job opening.
+
+Having earned my Master in Physics Engineering from Coimbra University, I have
+been exposed to a vibrant knowledge environment where learning was always
+encouraged and seen as the best knowledge gained.
+
+I have  already experienced this advantage as I joined Vestas as an
+Operational Forecast Engineer where I face daily new challenges,
+technical as well as in comunication.
+
+Since I started at Vestas, I found myself exposed to a fully operating system
+that needs nurture and quick solutions when problems rise. This allowed me to
+work in a fast working environment and solution driven, as customers where
+expecting the system to be fully operational. The contact with the forecasting
+system allowed me to be emersed in an linux environment and develop my scripting capabilities,
+specially in the Python language.
+
+I have been exposed to  CI/CD pipelines as well
+as k8s environments, where I am currently working on the monitoring
+Infrastructure which alllows me to work with tools such as Prometheus, elasticsearch,
+ and the alerting conterparts.
+
+I enjoy to learn new technologies as well as new ways of solving problems. I
+belive that all the previous considerations qualify me for this position. I
+look forward to discussing how my set of skills can be of value to Zhülke.
+
+Thank you for your time, consideration and forthcoming response.
+
+* Run me                                                           :noexport:
+#+BEGIN_SRC emacs-lisp
+(org-export-to-file 'awesomecv "awesome.tex")
+(org-latex-compile "awesome.tex")
+#+END_SRC
+
+#+RESULTS:
+: /home/dani/Awesome-CV/awesome.pdf
