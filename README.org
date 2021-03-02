@@ -5,3 +5,4 @@ Feel free to look at it, you're already here.
 
 * Thanks
   @Titan-C for his witchCraft making that modernCV exporter go check it out [[https://github.com/Titan-C/org-cv][here]]
+  @posquit0 for the [[https://github.com/posquit0/Awesome-CV][Awesome-CV template]].
